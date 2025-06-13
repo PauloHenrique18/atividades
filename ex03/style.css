@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+body {
+    background-color: #ecd9c2;
+   font-family: Arial, Helvetica, sans-serif;
+   text-align: justify; 
+}
+
+ h1 {
+    background-color: #D7A184;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+ }
+ h2{
+    background-color: #D7A184;
+ }
+h3{
+    background-color: #D7A184;
+}
+h4{
+    background-color: #D7A184;
+}
+h5{
+   background-color: #BA8E7A;
+}
