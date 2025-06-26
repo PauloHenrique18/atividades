@@ -45,7 +45,7 @@ header{
 
 header h1 {
    color:white;
-   font-family: var(--fonte-destaque);
+   font-family: var(--font-android);
    font-size: 3em;
    font-weight: normal;
    margin-bottom: 20px;
@@ -85,11 +85,11 @@ nav > a:hover{
 
 
 
-
+main{
     min-width: 300px;
     max-width: 1000px;
-    margin: autoname
-    padding: 20px;
+    margin: auto;
+    padding : 20px;
     background-color: white;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.452);
     border-bottom-left-radius: 10px;
