@@ -3,10 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Omargeral</title>
+    <link rel="shortcut icon" href="fatia-de-bolo.png" type="image/x-icon">
     <style>
-        div.container{
-            border: 3px solid blue;
+
+@font-face {
+    font-family:'Destaque';
+    src: url('CreatoDisplay-Medium.otf') format('OpenType');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Titulo';
+    src: url(Ananda\ Personal\ Use.ttf) format('TrueType')
+}
+
+        body{
+           background-color:#FF91B4 ;
+        }
+        div.Bolo{
+            background-color:#ffd2dd;
+            border: 3px solid transparent;
             display: grid;
             grid-template-columns: auto auto;
             grid-template-rows: auto auto auto;
@@ -20,15 +37,18 @@
         }
 
         div.item{
-            max-width: 150px;
-            min-height: 100px;
-            border: 3px solid red;
+            width: 200px;
+            height: 280px;
+            border: 3px solid transparent;
             padding: 5px;
+            background-color:#d95988c5;
+            border-radius: 15px;
         }
         div.item>img{
             width: 140px;
             height: 150px;
             display: block;
+            padding: 30px 0px 0px 0px;
             margin:auto;
             margin-bottom:10px;
            
@@ -37,15 +57,50 @@
 
         div.paragrafo>p{
             text-align: center;
+            padding: 15px;
+            
+        }
+
+        .Whatsapp{
+            display: inline-block;
+            background-color: #CF5772;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-family:var(--font-Destaque);
+            font-size: 17px;
+            font-weight: bold;
+            transition: 0.3s ;
+        }
+
+        .Whatsapp:hover{
+            background-color: transparent;
+        }
+
+        :root{
+
+            --font-Destaque: 'Destaque';
+            --font-Titulo: 'Titulo'
+        }
+
+        h1{
+            font-family:var(--font-Titulo);
+            text-align: center;
         }
 
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="item"><img src="bolo_do_stitch.jpg" alt=""> <div class="paragrafo"><p>teste</p></div> 
-    </div>
-        <div class="item"><img src="fatia-de-bolo.png" alt=""></div>
+
+    <h1>Omargeral</h1>
+    <div class="Bolo">
+        <div class="item">
+            <img src="bolo_do_stitch.jpg" alt=""> <div class="paragrafo"> 
+              <p><a href="https://wa.me/5585991950950?text=Ol%C3%A1%2C%20quero%20saber%20informa%C3%A7%C3%B5es%20sobre%20o%20Bolo%20decorativo%20do%20Stitch" target="_blank" class="Whatsapp">Eu quero</a></p>
+        </div> 
+        </div>
+        <div class="item"><img src="fatia-de-bolo.png" alt="" ></div>
         <div class="item"><img src="fatia-de-bolo.png" alt=""></div>
         <div class="item"><img src="fatia-de-bolo.png" alt=""></div>
         <div class="item"><img src="fatia-de-bolo.png" alt=""></div>
