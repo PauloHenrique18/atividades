@@ -19,93 +19,156 @@
 }
 
         body{
-           background-color:#FF91B4 ;
+            background-color:#F2E9CE;
         }
-        div.Bolo{
-            background-color:#ffd2dd;
-            border: 3px solid transparent;
-            display: grid;
+        div.Bolo{ 
+            background-color:#F2CEA2; 
+            border: 3px solid transparent; 
+            display: grid; 
             grid-template-columns: auto auto;
             grid-template-rows: auto auto auto;
             gap: 30px;
-            
-            align-items:normal;
+        
+            flex-wrap: wrap;
+            align-items:normal; 
             justify-items: normal;
-            align-content:center;
-            justify-content:space-around;
-            
-        }
-
-        div.item{
-            width: auto;
-            height: auto;
-            border: 3px solid transparent;
-            padding: 5px;
-            background-color:#d95988c5;
-            border-radius: 15px;
-        }
-        div.item>img{
-            width: 140px;
-            height: 150px;
-            display: block;
-            padding: 30px 0px 0px 0px;
-            margin:auto;
-            margin-bottom:10px;
-           
-         
-        }
-
-        div.paragrafo>p{
-            text-align: center;
-            padding: 15px;
-            
-        }
-
-        .Whatsapp{
-            display: inline-block;
-            background-color: #CF5772;
-            color: white;
-            padding: 10px 20px;
-            text-decoration: none;
-            border-radius: 5px;
-            font-family:var(--font-Destaque);
-            font-size: 17px;
-            font-weight: bold;
+            align-content:center; justify-content:space-around;
+        } 
+        
+        div.item{ 
+            width: 150px; 
+            height:290px; 
+            border: 3px solid transparent; 
+            padding: 5px; 
+            background-color:#dd8d6ba1; 
+            border-radius: 15px; }
+        
+        div.item>img{ 
+            width: 140px ; 
+            height: 150px; 
+            display: block; 
+            padding: 15px 0px 0px 0px; 
+            margin:auto; 
+            margin-bottom:10px; 
+        } 
+        
+        div.paragrafo>p{ 
+            text-align:center; 
+            font-family: 
+            var(--font-Destaque); 
+            color: #663328; 
+        } 
+        
+        .Whatsapp{ 
+            display: inline-block; 
+            background-color: #BF604B; 
+            color: white; 
+            padding: 10px 20px; 
+            text-decoration: none; 
+            border-radius: 10px; 
+            font-family:var(--font-Destaque); font-size: 17px; 
+            font-weight: bold; 
             transition: 0.3s ;
-        }
-
-        .Whatsapp:hover{
-            background-color: transparent;
-        }
+        } 
+        
+        .Whatsapp:hover{ 
+            background-color: transparent; 
+        } 
 
         :root{
-
-            --font-Destaque: 'Destaque';
-            --font-Titulo: 'Titulo'
+         --font-Destaque: 'Destaque'; 
+         --font-Titulo: 'Titulo' 
         }
 
-        h1{
-            font-family:var(--font-Titulo);
+         h1{ 
+            color: #BF604B; 
+            font-family:var(--font-Titulo); 
+            text-align: center; 
+            font-size:50px; 
+        }
+
+        footer{
+            background-color: #dd8d6bc2;
+            padding:5px;
+            color: white;
             text-align: center;
+            font-family: var(--font-Destaque);
         }
+
+        footer a{
+            color: white;
+            text-decoration: none;
+            padding: 0px 1px;
+        }
+
+        footer a:hover{
+            text-decoration: underline;
+
+
+        }
+
 
     </style>
 </head>
 <body>
 
-    <h1>Omargeral</h1>
-    <div class="Bolo">
-        <div class="item">
-            <img src="bolo_do_stitch.jpg" alt=""> <div class="paragrafo"> 
-              <p><a href="https://wa.me/5585991950950?text=Ol%C3%A1%2C%20quero%20saber%20informa%C3%A7%C3%B5es%20sobre%20o%20Bolo%20decorativo%20do%20Stitch" target="_blank" class="Whatsapp">Eu quero</a></p>
-        </div> 
+    <main>
+        <h1>Omargeral</h1>
+        <img src="" alt="">
+        <div class="Bolo">
+            <div class="item">
+                <img src="bolos/bolo_do_stitch.jpg" alt="Bolo do Stitch">
+                <div class="paragrafo">
+                   <p style="padding: 9px;"><strong>Bolo Do Stitch</strong> </p>
+                   <p>
+                        <a href="https://wa.me/5585991950950?text=Ol%C3%A1%2C%20quero%20saber%20informa%C3%A7%C3%B5es%20sobre%20o%20Bolo%20decorativo%20do%20Stitch" target="_blank" class="Whatsapp">Eu quero
+                        </a>
+                   </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="bolos/bolo_unicornio.jpg" alt="Bolo decorativo unicornio">
+                <div class="paragrafo">
+                    <p style="padding: 9px;"><strong>Bolo Unicornio</strong></p>
+                    <p>
+                        <a href="https://wa.me/5585991950950?text=ol%C3%A1%2C%20quero%20saber%20informa%C3%A7%C3%B5es%20sobre%20o%20bolo%20decorativo%20de%20unicornio" target="_blank" class="Whatsapp">Eu quero
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <div class="item"><img src="bolos/bolo_de_cenoura_chocolate.jpg" alt="Bolo de cenoura com cobertura de chocolate">
+                <div class="paragrafo">
+                    <p><strong>Bolo cenoura cobertura chocolate</strong></p>
+                    <p>
+                        <a href="https://wa.me/5585991950950?text=ol%C3%A1%2C%20quero%20saber%20informa%C3%A7%C3%B5es%20sobre%20o%20bolo%20de%20cenoura%20cobertura%20chocolate" target="_blank" class="Whatsapp">Eu quero
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <div class="item"><img src="bolos/bolo_de_milho.jpg" alt="Bolo de Milho">
+                <div class="paragrafo">
+                    <p style="padding: 9px;"><strong>Bolo de Milho</strong></p>
+                    <p>
+                        <a href="https://wa.me/5585991950950?text=ol%C3%A1%2C%20quero%20saber%20informa%C3%A7%C3%B5es%20sobre%20o%20bolo%20de%20Milho" target="_blank" class="Whatsapp">Eu quero
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <div class="item"><img src="bolos/bolo_formigueiro.jpg" alt="Bolo formigueiro">
+                <div class="paragrafo">
+                    <p style="padding: 9px;"><strong>Bolo formigueiro</strong></p>
+                    <p>
+                        <a href="https://wa.me/5585991950950?text=ol%C3%A1%2C%20quero%20saber%20informa%C3%A7%C3%B5es%20sobre%20o%20Bolo%20Formigueiro" target="_blank" class="Whatsapp">Eu quero
+                        </a>
+                    </p>
         </div>
-        <div class="item"><img src="fatia-de-bolo.png" alt="" ></div>
-        <div class="item"><img src="fatia-de-bolo.png" alt=""></div>
-        <div class="item"><img src="fatia-de-bolo.png" alt=""></div>
-        <div class="item"><img src="fatia-de-bolo.png" alt=""></div>
-    </div>
+    </main>
 
+    <footer>
+        <p>Instagram:
+            <a href="https://www.instagram.com/doceria_artesanal_omargeral/" target="_blank">Omargeral</a>
+        </p>
+    </footer>
     
 </body>
 </html>
