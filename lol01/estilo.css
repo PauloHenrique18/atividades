@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:'lol';
+    src: url('fonte/League.otf') format('opentype');
+}
+
+@font-face{
+    font-family:'arabe';
+    src: url('fonte/arabe.ttf') format('opentype');
+}
+:root {
+    --cor-fundo: #054c4c;
+    --cor-destaque: #0c1c21;
+    --cor-caixa: #096396;
+    --cor-fonte: #daa656;
+
+    --font-padrao: Arial, Helvetica, sans-serif;
+    --font-lol: 'lol', arial;
+    --font-arabe: 'arabe', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body { 
+    font-family: var(--font-padrao);
+}
+
+header {
+    background-color: var(--cor-caixa);
+}
+
+header h1 {
+    color: var(--cor-fonte);
+    font-family: var(--font-arabe);
+    text-align: center;
+    padding: 20px;
+}
+
+header p {
+    color: var(--cor-fonte);
+    font-family: var(--font-padrao);
+    text-align: center;
+}
+
+header ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 10px;
+}
